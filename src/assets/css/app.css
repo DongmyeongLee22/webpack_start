@@ -1,3 +1,43 @@
-body{
-    background-color: pink;
+/*Global Styles*/
+@import url('https://fontlibrary.org/face/junction');
+
+body {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rgba-black-light {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.rgba-black-string {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/*Navbar*/
+ul.navbar-nav.ml-auto a {
+    color: #fff;
+}
+
+.dropdown-menu a {
+    color: #9e9e9e !important;
+    font-size: 0.85rem;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item.dropdown-wide {
+    position: static;
+}
+
+.navbar .dropdown-wide .dropdown-menu.w-75 {
+    margin-top: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#mega-menu {
+    padding: 1rem;
 }
