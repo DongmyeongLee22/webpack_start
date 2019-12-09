@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>My Website | Reservation</title>
+</head>
+<body class="reservation">
+<a class="shadow-xl" href="" id="scrolltoTop">Top</a>
+
+<!-- SECTION: Navbar
+====================================================================== -->
+<nav class="navbar navbar-expand-lg navbar-transparent fixed-top rgba-black-light" id="primary-navbar">
+    <div class="container">
+        <a class="navbar-brand text-white font text-center" data-placement="bottom" data-toggle="tooltip"
+           href="index.html" title="나의 웹사이트 로고입니다.">
+            <img alt="My logo" src="./assets/images/logo.jpg" width="60px">
+            <h2>ASITE</h2>
+        </a>
+
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="index.html"><i class="fa fa-home fa-lg"></i>
+                        <p>Home</p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="intro.html"><i class="fa fa-info fa-lg"></i>
+                        <p>Intro</p></a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-book-open fa-lg"></i>
+                        <p>Page</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="page.html">Action</a>
+                        <a class="dropdown-item" href="page.html">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="page.html">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" href="blog.html" tabindex="-1">
+                        <i class="fa fa-rss fa-lg"></i>
+                        <p>Blog</p>
+                    </a>
+                </li>
+
+                <!--Project Mega Menu for PC-->
+                <li class="nav-item dropdown dropdown-wide d-lg-block d-none">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-th-large fa-lg"></i>
+                        <p>Project</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu w-75">
+                        <div class="container-fluid py-4" id="mega-menu">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h5>
+                                        <strong class="text-danger">Project Title</strong>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <img alt="" class="img-fluid rounded mt-3" src="./assets/images/bg_universe.jpg">
+                                </div>
+                                <div class="col-xl-9">
+                                    <h5><strong class="text-success">Our Project below...</strong></h5>
+                                    <div class="dropdown-divider mt-3 mb-4"></div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img1.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 1</strong>
+                                                </h6>
+                                                <p>TEST</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img2.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 2</strong>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img3.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 3</strong>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi aut
+                                    blanditiis corporis doloremque eos expedita fugiat harum illum libero minima porro
+                                    quis quos, saepe tempore voluptatem! Explicabo, voluptas!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--Project Mega Menu for mobile-->
+                <li class="nav-item dropdown d-block d-lg-none">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-th-large fa-lg"></i>
+                        <p>Project</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="page.html">Project 1</a>
+                        <a class="dropdown-item" href="page.html">Project 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="page.html">Project 3</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" data-target="#modal-contact"
+                       data-toggle="modal" href="#" tabindex="-1">
+                        <i class="fa fa-envelope fa-lg"></i>
+                        <p>Contact</p></a>
+                </li>
+                <li class="nav-item active">
+                    <a aria-disabled="true" class="nav-link text-center" href="reservation.html" tabindex="-1">
+                        <i class="fa fa-desktop fa-lg"></i>
+                        <p>Reservaiotn <span class="sr-only">(current)</span></p></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- SECTION: Navbar -->
+
+<!--Modal Contact-->
+<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade bd-example-modal-lg" id="modal-contact"
+     role="dialog"
+     tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-info" id="exampleModalLabel">Contact us!</h5>
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="bold">상담 문의 해주셔서 감사합니다. 가능한 빠르게 답장 드리겠습니다. 아래 내역을 채워 주세요.</p>
+                <br>
+                <form>
+                    <div class="form-row mb-3">
+                        <div class="col-3">
+                            <input class="form-control" placeholder="Your Name" type="text">
+                        </div>
+                        <div class="col-3">
+                            <input class="form-control" placeholder="Your Phone Number" type="text">
+                        </div>
+                        <div class="col-6">
+                            <input class="form-control" placeholder="localhost@gmail.com" type="email">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Subject" type="text">
+                    </div>
+                    <div class="form-group">
+                            <textarea class="form-control" cols="30" id="" name="" placeholder="Write your message..."
+                                      rows="_4_"></textarea>
+                    </div>
+                    <button class="btn bg-purple" type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION: Jumbotron
+====================================================================== -->
+<section class="jumbotron jumbotron-fluid mb-0">
+    <div class="section-content">
+        <div class="container text-center text-white rgba-black-light p-5 my-5">
+            <h1 class="display-4 font-weight-bold">Reservation</h1>
+
+            <hr class="hr w-75">
+            <p class="lead">We will reply as soon as possible. Thank you.</p>
+
+        </div>
+    </div>
+
+</section>
+<!-- SECTION: Jumbotron -->
+
+<!-- SECTION: Message
+====================================================================== -->
+<section id="msg">
+    <div class="section-content">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-6 mb-5 wow fadeInLeft">
+                    <h3>Send us yout message...</h3>
+                    <p class="lead mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,
+                        quibusdam!</p>
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control" id="name" placeholder="Your Name" type="text">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="email" placeholder="jdeo@email.com" type="text">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="subject" placeholder="Subject" type="text">
+                        </div>
+                    </form>
+                    <div class="form-group">
+                        <textarea class="form-control" cols="30" id="content" name="content" rows="8"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn bg-purple text-white">Send
+                            <i class="far fa-paper-plane ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 wow fadeInRight">
+                    <div class="widget-group text-white p-4 rounded">
+                        <h4>
+                            <i class="fas fa-map-marked-alt fa-lg mr-4"></i> Find US
+                        </h4>
+                        <p class="ml-5 mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                            cupiditate deleniti dolores error exercitationem fugit in inventore ipsam iure minima modi
+                            non nostrum, obcaecati, odit, praesentium saepe sequi ut voluptate?</p>
+
+                        <h4>
+                            <i class="fa fa-phone fa-lg mr-4"></i> Give US A call
+                        </h4>
+                        <p class="ml-5 mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                            cupiditate deleniti dolores error exercitationem fugit in inventore ipsam iure minima modi
+                            non nostrum, obcaecati, odit, praesentium saepe sequi ut voluptate?</p>
+
+                        <h4>
+                            <i class="fa fa-file fa-lg mr-4"></i> Legal Information
+                        </h4>
+                        <p class="ml-5 mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+                            cupiditate deleniti dolores error exercitationem fugit in inventore ipsam iure minima modi
+                            non nostrum, obcaecati, odit, praesentium saepe sequi ut voluptate?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: Message -->
+
+<!-- SECTION: Map
+====================================================================== -->
+<section class="wow fadeInRight" id="contactMap">
+    <div class="container-fluid">
+        <div id="map"></div>
+    </div>
+</section>
+<!-- SECTION: Map -->
+
+<!-- SECTION: Footer
+====================================================================== -->
+<footer class="footer py-5">
+    <div class="container wow fadeInUp">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a class="text-warning" href="index.html">
+                        <h5>My Website</h5>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque iusto laudantium omnis
+                        possimus quas quod saepe! Accusamus accusantium culpa cupiditate, deleniti dolor ea magnam neque
+                        possimus praesentium quasi unde.</p>
+                </div>
+                <div class="col-md-2 d-none d-md-block mb-4">
+                    <h5>Projects</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted" href="page.html">Project 1</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Project 2</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Project 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 d-none d-md-block mb-4">
+                    <h5>Pages</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted" href="page.html">Page 1</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Page 2</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Page 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card card-body bg-danger">
+                        <div class="card-text">
+                            <div class="text-white d-flex justify-content-start">
+                                <i class="fas fa-phone fa-4x mr-5"></i>
+                                <div class="icon-list-content">
+                                    <div>
+                                        <p class="my-0">Phone Call</p>
+                                    </div>
+                                    <div>
+                                        <p class="lead">
+                                            <a class="text-white" href="tel:010-8276-1258"></a>
+                                            <strong>010-8276-1258</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="hr-white mt-0 mb-3">
+                            <div class="text-white">
+                                <span>
+                                    <i class="fa fa-envelope fa-lg mr3"></i>
+                                     <a class="text-white" href="mailto:jdoe@email.com"></a>
+                                    <strong>jdoe@email.com</strong>
+                                </span>
+                            </div>
+                            <br>
+                            <div class="text-white">
+                                <span>
+                                    <i class="fa fa-home fa-lg mr-3">
+                                       Busan, South Korea
+                                    </i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+
+        <ul class="social-icons list-unstyled d-flex justify-content-center">
+            <li class="mx-2">
+                <a href="#" style="color: #00aced;">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #3b5998;">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #d34836;">
+                    <i class="fab fa-google-plus fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #cc181e;">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="copyright text-center text-muted mt-4">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            My Website. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+<!-- SECTION: Footer -->
+<script async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxrk8wg5gxxhqYaOBd9yP71zLs5uC-BgU&callback=initMap"></script>
+</body>
+</html>

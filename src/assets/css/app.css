@@ -2,6 +2,7 @@
 @import url('https://fontlibrary.org/face/junction');
 
 body {
+    font-family: 'JunctionRegular', serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -14,6 +15,21 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
 }
 
+.rgba-blue-grey-slight {
+    background-color: rgba(96, 125, 139, 0.1);
+}
+
+.rgba-blue-grey-light {
+    background-color: rgba(96, 125, 139, 0.35);
+}
+
+.rgba-blue-grey-strong {
+    background-color: rgba(96, 125, 139, 0.7);
+}
+
+.rgba-orange-slight {
+    background-color: rgba(255, 152, 0, 0.1);
+}
 .shadow-xl {
     box-shadow: 0 1rem 2.5rem -0.8rem rgba(0, 0, 0, 0.56), 0 0.25rem 1.5rem rgba(0, 0, 0, 0.12), 0 0.5rem 0.75rem -0.3rem rgba(0, 0, 0, 0.2);
 }
@@ -48,6 +64,12 @@ body {
     margin: 0 0 0 0.45rem;
 }
 
+blockquote {
+    border-left: 0.5rem solid red;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
 .shadow-box {
     transition: 0.2s ease-in-out;
 }
@@ -78,6 +100,12 @@ body {
 #scrolltoTop:hover {
     background-color: rgba(0, 0, 255, 0.65);
 }
+
+.image-raised {
+    margin: -1.5rem 0.625rem 0;
+    transform: scale(0.9);
+}
+
 /*Navbar*/
 ul.navbar-nav.ml-auto a {
     color: #fff;
@@ -172,7 +200,7 @@ ul.navbar-nav.ml-auto a {
 }
 
 /*Footer*/
-.footer.footer {
+footer.footer {
     background-color: #e0edf0;
 }
 
@@ -180,7 +208,193 @@ hr.hr {
     border-top: 1px solid #fff;
 }
 
+hr.hr-black {
+    border-top: 1px solid black;
+
+}
+
 .copyright {
     font-size: 0.9rem;
 }
 
+/*Jumbotron*/
+.jumbotron {
+    background-size: cover !important;
+    background-origin: border-box !important;
+}
+
+.intro .jumbotron {
+    background: url("./../images/bg_universe.jpg") no-repeat fixed;
+}
+
+.page .jumbotron {
+    background: url("./../images/img1.jpg") no-repeat fixed;
+}
+
+.blog .jumbotron {
+    background: url("./../images/img2.jpg") no-repeat fixed;
+}
+
+.post .jumbotron {
+    background: url("./../images/img3.jpg");
+}
+
+.reservation .jumbotron {
+    background: url("./../images/pre-entry.jpg");
+}
+
+/*CEO*/
+#ceo {
+    background: url("./../images/tile.jpg") repeat;
+}
+
+/*Brand History*/
+#brand-history {
+    background: url("./../images/brand.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.brand-content:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*Image Lightbox*/
+.image-lightbox .col img,
+.image-lightbox img {
+    transition: all 0.3s ease-in-out;
+}
+
+.image-lightbox .col img:hover {
+    transform: rotate(-10deg) scale(1.05, 1.05);
+    opacity: 1;
+}
+
+.image-lightbox:hover img {
+    opacity: 0.6;
+    transform: scale(0.9, 0.9);
+}
+
+/*FAQ*/
+.faq .card {
+    border: none;
+}
+
+.faq .card-header {
+    background-color: transparent;
+    padding: 0.75rem 0;
+
+}
+
+.faq .btn-link {
+    color: purple;
+}
+
+.faq .card-body {
+    padding: 2.05rem;
+}
+
+/*Map*/
+#contactMap, #map {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+#contactMap {
+    height: 600px;
+}
+
+#map {
+    height: 580px;
+}
+
+#contactMap .address-info {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 3;
+    transition: 0.5s ease-in-out;
+}
+
+#contactMap .address-info:hover {
+    background-color: #fff;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/*Page Content*/
+.main {
+    background: #fff;
+    z-index: 3
+}
+
+.main-raised-square, .main-raised-rounded {
+    margin: -60px 30px 0;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+}
+
+.main-raised-rounded {
+    border-radius: 6px;
+}
+
+/*Aside Style*/
+.page-list .card-body {
+    border-radius: 0.25rem 0.25rem 0 0;
+    display: block;
+}
+
+.widget-group {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.widget-group:hover {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/*Communicating Styles*/
+.communicate-box {
+    background-color: rgba(96, 125, 139, 0.35);
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.communicate-box:hover {
+    background-color: rgba(96, 125, 139, 0.7);
+}
+
+/*Blog*/
+#optin {
+    background-color: #004d40;
+}
+
+.blog-card {
+    margin-bottom: 1.5rem;
+}
+
+/*Post Styles*/
+.post-header {
+    border-bottom: 1px solid rgba(96, 125, 139, 0.7);
+}
+
+.post-meta {
+    border-top: 1px solid rgba(96, 125, 139, 0.35);
+    border-bottom: 1px solid rgba(96, 125, 139, 0.35);
+}
+
+.post-excerpt {
+    position: absolute;
+    top: 1rem;
+    left: -4rem;
+}
+
+.second-featured-img {
+    position: absolute;
+    top: 10rem;
+    left: -4rem;
+}

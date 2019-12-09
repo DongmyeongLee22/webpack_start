@@ -5,9 +5,597 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>My Website | Intro</title>
 </head>
-<body>
-<h1>Hello, world!</h1>
+<body class="intro">
+<a class="shadow-xl" href="" id="scrolltoTop">Top</a>
+
+<!-- SECTION: Navbar
+====================================================================== -->
+<nav class="navbar navbar-expand-lg navbar-transparent fixed-top rgba-black-light" id="primary-navbar">
+    <div class="container">
+        <a class="navbar-brand text-white font text-center" data-placement="bottom" data-toggle="tooltip"
+           href="index.html" title="나의 웹사이트 로고입니다.">
+            <img alt="My logo" src="./assets/images/logo.jpg" width="60px">
+            <h2>ASITE</h2>
+        </a>
+
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="index.html"><i class="fa fa-home fa-lg"></i>
+                        <p>Home</p></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-center" href="intro.html"><i class="fa fa-info fa-lg"></i>
+                        <p>Intro <span class="sr-only">(current)</span></p></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-book-open fa-lg"></i>
+                        <p>Page</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="page.html">Action</a>
+                        <a class="dropdown-item" href="page.html">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="page.html">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" href="blog.html" tabindex="-1">
+                        <i class="fa fa-rss fa-lg"></i>
+                        <p>Blog</p></a>
+                </li>
+
+                <!--Project Mega Menu for PC-->
+                <li class="nav-item dropdown dropdown-wide d-lg-block d-none">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-th-large fa-lg"></i>
+                        <p>Project</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu w-75">
+                        <div class="container-fluid py-4" id="mega-menu">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h5>
+                                        <strong class="text-danger">Project Title</strong>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <img alt="" class="img-fluid rounded mt-3" src="./assets/images/bg_universe.jpg">
+                                </div>
+                                <div class="col-xl-9">
+                                    <h5><strong class="text-success">Our Project below...</strong></h5>
+                                    <div class="dropdown-divider mt-3 mb-4"></div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img1.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 1</strong>
+                                                </h6>
+                                                <p>TEST</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img2.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 2</strong>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img3.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 3</strong>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi aut
+                                    blanditiis corporis doloremque eos expedita fugiat harum illum libero minima porro
+                                    quis quos, saepe tempore voluptatem! Explicabo, voluptas!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--Project Mega Menu for mobile-->
+                <li class="nav-item dropdown d-block d-lg-none">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-th-large fa-lg"></i>
+                        <p>Project</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="page.html">Project 1</a>
+                        <a class="dropdown-item" href="page.html">Project 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="page.html">Project 3</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" data-target="#modal-contact"
+                       data-toggle="modal" href="#" tabindex="-1">
+                        <i class="fa fa-envelope fa-lg"></i>
+                        <p>Contact</p></a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" href="reservation.html" tabindex="-1">
+                        <i class="fa fa-desktop fa-lg"></i>
+                        <p>Reservaiotn</p></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- SECTION: Navbar -->
+
+<!--Modal Contact-->
+<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade bd-example-modal-lg" id="modal-contact"
+     role="dialog"
+     tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-info" id="exampleModalLabel">Contact us!</h5>
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="bold">상담 문의 해주셔서 감사합니다. 가능한 빠르게 답장 드리겠습니다. 아래 내역을 채워 주세요.</p>
+                <br>
+                <form>
+                    <div class="form-row mb-3">
+                        <div class="col-3">
+                            <input class="form-control" placeholder="Your Name" type="text">
+                        </div>
+                        <div class="col-3">
+                            <input class="form-control" placeholder="Your Phone Number" type="text">
+                        </div>
+                        <div class="col-6">
+                            <input class="form-control" placeholder="localhost@gmail.com" type="email">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Subject" type="text">
+                    </div>
+                    <div class="form-group">
+                            <textarea class="form-control" cols="30" id="" name="" placeholder="Write your message..."
+                                      rows="_4_"></textarea>
+                    </div>
+                    <button class="btn bg-purple" type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- SECTION: Jumbotron
+====================================================================== -->
+<section class="jumbotron jumbotron-fluid mb-0 wow fadeInDown">
+    <div class="section-content">
+        <div class="container text-white">
+            <h1 class="display-4">Introduction</h1>
+            <p class="lead">Let me introduce our Company. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Modi, sit?</p>
+            <div class="collapse" id="jumbo-collapse">
+                <br>
+                <hr class="hr my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger
+                    container.</p>
+            </div>
+            <p class="lead">
+                <a class="btn btn-outline-light btn-lg" data-toggle="collapse" href="#jumbo-collapse"
+                   role="button">Learn more</a>
+            </p>
+        </div>
+    </div>
+
+</section>
+<!-- SECTION: Jumbotron -->
+
+<!-- SECTION: CEO
+====================================================================== -->
+<section id="ceo">
+    <div class="section-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 p-4">
+                    <img alt="" class="img-fluid shadow-xl wow fadeInLeft" src="./assets/images/chris.jpg">
+                </div>
+                <div class="col-md-6 p-4">
+                    <h1>John Doe <small class="text-warning font-weight-bold">CEO</small></h1>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error est labore necessitatibus odio
+                        quam, quia saepe. Cumque cupiditate distinctio eligendi, magnam minima modi mollitia obcaecati
+                        quo rem soluta! Aliquid amet animi aperiam, at blanditiis consequuntur corporis dignissimos
+                        dolore, dolorum error ex illum labore laudantium libero molestias natus nemo nesciunt numquam
+                        odio quia quidem, recusandae repellat tempora tenetur ullam unde velit voluptatum. Distinctio
+                        dolorem eius nihil similique vero. Dolores, fugiat fugit inventore placeat quibusdam
+                        reprehenderit! A ab accusantium corporis dicta dolor enim error eum explicabo, harum incidunt
+                        iste placeat provident quas quos ratione rerum sint, ullam unde. Nam odio odit soluta?
+                    </p>
+                    <hr class="mt-4">
+                    <p class="mt-5 wow fadeInRight">
+                        <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen frameborder="0"
+                                height="315"
+                                src="https://www.youtube.com/embed/2MkPtZWd4hA"
+                                width="100%"></iframe>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: CEO -->
+
+<!-- SECTION: Brand History
+====================================================================== -->
+<section class="section-content" id="brand-history">
+    <div class="container">
+        <div class="row brand-content rgba-black-light p-3 wow bounceIn">
+            <div class="col-8 offset-2 text-center text-white my-5">
+                <h3>Our History, and ...</h3>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ea est fugiat
+                    laborum minus nisi omnis quae quod sint sit? Dolorum minima modi molestias pariatur similique
+                    temporibus vitae! Facere, provident!</p>
+            </div>
+            <div class="col-md-6 mb-5 text-white">
+                <h4 class="mb-4">Brief History</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis delectus dignissimos
+                    dolor dolorum earum, ex id illo mollitia necessitatibus nemo odio optio reiciendis rem rerum
+                    sapiente soluta tempore voluptatem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis delectus dignissimos
+                    dolor dolorum earum, ex id illo mollitia necessitatibus nemo odio optio reiciendis rem rerum
+                    sapiente soluta tempore voluptatem.</p>
+            </div>
+            <div class="col-md-6 mb-5 text-white">
+                <h4 class="mb-4">My career</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis delectus dignissimos
+                    dolor dolorum earum, ex id illo mollitia necessitatibus nemo odio optio reiciendis rem rerum
+                    sapiente soluta tempore voluptatem.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis delectus dignissimos
+                    dolor dolorum earum, ex id illo mollitia necessitatibus nemo odio optio reiciendis rem rerum
+                    sapiente soluta tempore voluptatem.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: Brand History -->
+
+<!-- SECTION: About Us
+====================================================================== -->
+<section id="aboutus">
+    <div class="section-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h3 class="mb-5">About Us</h3>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a aria-controls="team" aria-selected="true" class="nav-link active font-weight-bold"
+                               data-toggle="tab"
+                               href="#team"
+                               id="team-tab" role="tab">Our team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-controls="photo" aria-selected="false" class="nav-link font-weight-bold"
+                               data-toggle="tab"
+                               href="#photo"
+                               id="photo-tab" role="tab">photo</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div aria-labelledby="team-tab" class="tab-pane fade show active" id="team" role="tabpanel">
+                            <img alt="" class="img-fluid shadow-xl my-5 wow slideInLeft"
+                                 src="./assets/images/aboutus.jpg">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut hic omnis quas
+                                repudiandae sequi voluptates! A aspernatur deleniti eligendi molestiae quia quisquam,
+                                quo repudiandae velit? Eveniet laborum laudantium necessitatibus officia officiis quidem
+                                saepe, voluptas voluptates! Explicabo nemo repellendus temporibus.</p>
+                        </div>
+                        <div aria-labelledby="photo-tab" class="tab-pane fade" id="photo" role="tabpanel">
+                            <div class="image-lightbox my-5">
+                                <div class="row">
+                                    <div class="col">
+                                        <a data-alt="title-1" data-lightbox="LightBox"
+                                           data-title="Title 1" href="./assets/images/office-1.jpg">
+                                            <img alt="title-1" class="img-fluid shadow-xl"
+                                                 src="./assets/images/office-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a data-alt="title-2" data-lightbox="LightBox"
+                                           data-title="Title 2" href="./assets/images/office-2.jpg">
+                                            <img alt="title-2" class="img-fluid shadow-xl"
+                                                 src="./assets/images/office-2.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row my-5" style="height: 170px">
+                                    <div class="col">
+                                        <a data-alt="title-3" data-lightbox="LightBox"
+                                           data-title="Title 3" href="./assets/images/office-3.jpg">
+                                            <img alt="title-3" class="img-fluid"
+                                                 src="./assets/images/office-3.jpg" style="height: 170px">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a data-alt="title-4" data-lightbox="LightBox"
+                                           data-title="Title 4" href="./assets/images/office-4.jpg">
+                                            <img alt="title-4" class="img-fluid shadow-xl"
+                                                 src="./assets/images/office-4.jpg" style="height: 170px">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="faq">
+                        <h3 class="mb-4">Frequently Asked Questions</h3>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button aria-controls="collapseOne" aria-expanded="true"
+                                                class="btn btn-link font-weight-bold"
+                                                data-target="#collapseOne" data-toggle="collapse"
+                                                type="button">
+                                            Collapsible Group Item #1
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div aria-labelledby="headingOne" class="collapse show" data-parent="#accordionExample"
+                                     id="collapseOne">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button aria-controls="collapseTwo" aria-expanded="false"
+                                                class="btn btn-link collapsed font-weight-bold"
+                                                data-target="#collapseTwo" data-toggle="collapse"
+                                                type="button">
+                                            Collapsible Group Item #2
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div aria-labelledby="headingTwo" class="collapse" data-parent="#accordionExample"
+                                     id="collapseTwo">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button aria-controls="collapseThree" aria-expanded="false"
+                                                class="btn btn-link collapsed font-weight-bold"
+                                                data-target="#collapseThree" data-toggle="collapse"
+                                                type="button">
+                                            Collapsible Group Item #3
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div aria-labelledby="headingThree" class="collapse" data-parent="#accordionExample"
+                                     id="collapseThree">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <a class="btn btn-dark btn-sm font-weight-bold" href="page.html">View all FAQs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: About Us -->
+
+<!-- SECTION: Map
+====================================================================== -->
+<section id="contactMap">
+    <div class="container">
+        <div class="row">
+            <div class="address-info col-sm-6 col-md-3 p-4 my-5 d-none d-md-block wow fadeInRight"
+                 data-wow-delay="1.0s">
+                <h4>Navigation Address</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, totam?</p>
+                <h4>Parking Lot</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, totam?</p>
+                <h4>Telephone</h4>
+                <p class="text-muted">010-8276-1258</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="wow fadeInRight" id="map"></div>
+    </div>
+
+</section>
+<!-- SECTION: Map -->
+
+<!-- SECTION: Footer
+====================================================================== -->
+<footer class="footer py-5">
+    <div class="container wow fadeInUp">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a class="text-warning" href="index.html">
+                        <h5>My Website</h5>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque iusto laudantium omnis
+                        possimus quas quod saepe! Accusamus accusantium culpa cupiditate, deleniti dolor ea magnam neque
+                        possimus praesentium quasi unde.</p>
+                </div>
+                <div class="col-md-2 d-none d-md-block mb-4">
+                    <h5>Projects</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted" href="page.html">Project 1</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Project 2</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Project 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 d-none d-md-block mb-4">
+                    <h5>Pages</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted" href="page.html">Page 1</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Page 2</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Page 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card card-body bg-danger">
+                        <div class="card-text">
+                            <div class="text-white d-flex justify-content-start">
+                                <i class="fas fa-phone fa-4x mr-5"></i>
+                                <div class="icon-list-content">
+                                    <div>
+                                        <p class="my-0">Phone Call</p>
+                                    </div>
+                                    <div>
+                                        <p class="lead">
+                                            <a class="text-white" href="tel:010-8276-1258"></a>
+                                            <strong>010-8276-1258</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="hr-white mt-0 mb-3">
+                            <div class="text-white">
+                                <span>
+                                    <i class="fa fa-envelope fa-lg mr3"></i>
+                                     <a class="text-white" href="mailto:jdoe@email.com"></a>
+                                    <strong>jdoe@email.com</strong>
+                                </span>
+                            </div>
+                            <br>
+                            <div class="text-white">
+                                <span>
+                                    <i class="fa fa-home fa-lg mr-3">
+                                       Busan, South Korea
+                                    </i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+
+        <ul class="social-icons list-unstyled d-flex justify-content-center">
+            <li class="mx-2">
+                <a href="#" style="color: #00aced;">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #3b5998;">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #d34836;">
+                    <i class="fab fa-google-plus fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #cc181e;">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="copyright text-center text-muted mt-4">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            My Website. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+<!-- SECTION: Footer -->
+<script async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxrk8wg5gxxhqYaOBd9yP71zLs5uC-BgU&callback=initMap"></script>
 </body>
 </html>

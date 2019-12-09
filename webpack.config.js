@@ -103,6 +103,7 @@ module.exports = {
         new CopyWebpackPlugin([
                 {from: './src/assets/webfonts/', to: './assets/webfonts/'}
             ]),
+        new ExtractTextPlugin('assets/css/app.bundle.css'),
         new HtmlWebpackPlugin({
             filename: "index.html",
             template: 'src/index.html',
@@ -113,6 +114,25 @@ module.exports = {
             template: "src/intro.html",
             'files': fileOptions
         }),
-        new ExtractTextPlugin('assets/css/app.bundle.css')
+        new HtmlWebpackPlugin({
+            filename: "page.html",
+            template: "src/page.html",
+            'files': fileOptions
+        }),
+        new HtmlWebpackPlugin({
+            filename: "blog.html",
+            template: "src/blog.html",
+            'files': fileOptions
+        }),
+        new HtmlWebpackPlugin({
+            filename: "post.html",
+            template: "src/post.html",
+            'files': fileOptions
+        }),
+        new HtmlWebpackPlugin({
+            filename: "reservation.html",
+            template: "src/reservation.html",
+            'files': fileOptions
+        })
     ]
 }

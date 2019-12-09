@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>My Website | Blog</title>
+</head>
+<body class="blog">
+<a class="shadow-xl" href="" id="scrolltoTop">Top</a>
+
+<!-- SECTION: Navbar
+====================================================================== -->
+<nav class="navbar navbar-expand-lg navbar-transparent fixed-top rgba-black-light" id="primary-navbar">
+    <div class="container">
+        <a class="navbar-brand text-white font text-center" data-placement="bottom" data-toggle="tooltip"
+           href="index.html" title="나의 웹사이트 로고입니다.">
+            <img alt="My logo" src="./assets/images/logo.jpg" width="60px">
+            <h2>ASITE</h2>
+        </a>
+
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="index.html"><i class="fa fa-home fa-lg"></i>
+                        <p>Home</p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="intro.html"><i class="fa fa-info fa-lg"></i>
+                        <p>Intro</p></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-book-open fa-lg"></i>
+                        <p>Page</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="page.html">Action</a>
+                        <a class="dropdown-item" href="page.html">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="page.html">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a aria-disabled="true" class="nav-link text-center" href="blog.html" tabindex="-1">
+                        <i class="fa fa-rss fa-lg"></i>
+                        <p>Blog</p></a> <span class="sr-only">(current)</span>
+                </li>
+
+                <!--Project Mega Menu for PC-->
+                <li class="nav-item dropdown dropdown-wide d-lg-block d-none">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-th-large fa-lg"></i>
+                        <p>Project</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu w-75">
+                        <div class="container-fluid py-4" id="mega-menu">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h5>
+                                        <strong class="text-danger">Project Title</strong>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <img alt="" class="img-fluid rounded mt-3" src="./assets/images/bg_universe.jpg">
+                                </div>
+                                <div class="col-xl-9">
+                                    <h5><strong class="text-success">Our Project below...</strong></h5>
+                                    <div class="dropdown-divider mt-3 mb-4"></div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img1.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 1</strong>
+                                                </h6>
+                                                <p>TEST</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img2.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 2</strong>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img3.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 3</strong>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi aut
+                                    blanditiis corporis doloremque eos expedita fugiat harum illum libero minima porro
+                                    quis quos, saepe tempore voluptatem! Explicabo, voluptas!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--Project Mega Menu for mobile-->
+                <li class="nav-item dropdown d-block d-lg-none">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-th-large fa-lg"></i>
+                        <p>Project</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="page.html">Project 1</a>
+                        <a class="dropdown-item" href="page.html">Project 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="page.html">Project 3</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" data-target="#modal-contact"
+                       data-toggle="modal" href="#" tabindex="-1">
+                        <i class="fa fa-envelope fa-lg"></i>
+                        <p>Contact</p></a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" href="reservation.html" tabindex="-1">
+                        <i class="fa fa-desktop fa-lg"></i>
+                        <p>Reservaiotn</p></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- SECTION: Navbar -->
+
+<!--Modal Contact-->
+<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade bd-example-modal-lg" id="modal-contact"
+     role="dialog"
+     tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-info" id="exampleModalLabel">Contact us!</h5>
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="bold">상담 문의 해주셔서 감사합니다. 가능한 빠르게 답장 드리겠습니다. 아래 내역을 채워 주세요.</p>
+                <br>
+                <form>
+                    <div class="form-row mb-3">
+                        <div class="col-3">
+                            <input class="form-control" placeholder="Your Name" type="text">
+                        </div>
+                        <div class="col-3">
+                            <input class="form-control" placeholder="Your Phone Number" type="text">
+                        </div>
+                        <div class="col-6">
+                            <input class="form-control" placeholder="localhost@gmail.com" type="email">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Subject" type="text">
+                    </div>
+                    <div class="form-group">
+                            <textarea class="form-control" cols="30" id="" name="" placeholder="Write your message..."
+                                      rows="_4_"></textarea>
+                    </div>
+                    <button class="btn bg-purple text-white" type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION: Jumbotron
+====================================================================== -->
+<section class="jumbotron jumbotron-fluid mb-0">
+    <div class="section-content">
+        <div class="container text-center text-white rgba-black-light p-5 my-5">
+            <h1 class="display-4 font-weight-bold">Blog Title</h1>
+
+            <hr class="hr w-75">
+            <p class="lead"> Blog Description here. It uses utility classes for typography and spacing to space content
+                out within the larger
+                container.</p>
+
+        </div>
+    </div>
+
+</section>
+<!-- SECTION: Jumbotron -->
+
+<!-- SECTION: Option
+====================================================================== -->
+<section class="py-4 wow fadeInDown" data-wow-delay="0.2s" id="optin">
+    <div class="container">
+        <div class="d-flex flex-row align-items-center">
+            <div class="col-md-8">
+                <p class="lead text-white mb-0">
+                    If you have any questions, please feel free to <span
+                        class="text-warning font-weight-bold">contact</span> us
+                </p>
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-success btn-lg btn-block" data-target="#modal-contact" data-toggle="modal">
+                    Contact
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: Option -->
+
+<!-- SECTION: Blog Top
+====================================================================== -->
+<section class="blog-top">
+    <div class="section-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-8 wow slideInLeft">
+                    <!-- Blog Carousel -->
+                    <div class="carousel slide shadow-xl" data-ride="carousel" id="blog-slide">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-slide-to="0" data-target="#blog-slide"></li>
+                            <li data-slide-to="1" data-target="#blog-slide"></li>
+                            <li data-slide-to="2" data-target="#blog-slide"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img alt="..." class="d-block w-100" src="./assets/images/bg1.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Blog Title1</h5>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="..." class="d-block w-100" src="./assets/images/bg2.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Blog Title2</h5>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img alt="..." class="d-block w-100" src="./assets/images/bg3.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Blog Title3</h5>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 wow slideInRight d-none d-xl-block">
+                    <div class="row">
+                        <a class="additional-posts" href="post.html">
+                            <div class="col-xl-12 wow slideInRight">
+                                <div class="card shadow-xl border-0 bg-dark text-white">
+                                    <img alt="..." class="card-img" src="./assets/images/blog1.jpg">
+                                    <div class="card-img-overlay rgba-black-light">
+                                        <h5 class="card-title text-warning">Post title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text">Last updated 3 mins ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <br>
+                        <a class="additional-posts" href="post.html">
+                            <div class="col-xl-12 wow slideInRight" data-wow-delay="0.2s">
+                                <div class="card shadow-xl border-0 bg-dark text-white">
+                                    <img alt="..." class="card-img" src="./assets/images/blog2.jpg">
+                                    <div class="card-img-overlay rgba-black-strong">
+                                        <h5 class="card-title text-warning">Post title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text">Last updated 3 mins ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: Blog Top -->
+
+<hr>
+
+<!-- SECTION: BlogMain
+====================================================================== -->
+<section id="blog-main">
+    <div class="section-content">
+        <div class="container">
+            <div class="row">
+                <main class="col-lg-8 mb-4">
+                    <div class="card shadow-box blog-card wow fadeInLeft">
+                        <a class="" href="post.html">
+                            <img alt="..." class="card-img-top" src="./assets/images/blog1.jpg">
+                        </a>
+                        <div class="card-body">
+                            <h6 class="mb-3">
+                                <i class="fa fa-files-o"></i>
+                                <a class="badge badge-success" href="#">Features</a>
+                                <i class="fa fa-tags"></i>
+                                <a class="badge badge-success" href="">Tag1, Tag2</a>
+                                <i class="fa fa-heart text-danger"></i>13
+                            </h6>
+                            <h5 class="card-title"><a href="post.html">Post title</a></h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer. <a href="post.html">Read
+                                    more..</a>
+                            </p>
+                            <div class="card-footer">
+                                <small class="text-muted">
+                                    <img alt="" class="shadow-xl rounded-circle mr-2" src="./assets/images/myphoto.jpg"
+                                         style="width: 30px">
+                                    <span>John Doe</span>
+                                    <span class="float-right">Last updated 3mins ago</span>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow-box blog-card wow fadeInLeft" data-wow-delay="0.2s">
+                        <a class="" href="post.html">
+                            <img alt="..." class="card-img-top" src="./assets/images/blog2.jpg">
+                        </a>
+                        <div class="card-body">
+                            <h6 class="mb-3">
+                                <i class="fa fa-files-o"></i>
+                                <a class="badge badge-success" href="#">Features</a>
+                                <i class="fa fa-tags"></i>
+                                <a class="badge badge-success" href="">Tag1, Tag2</a>
+                                <i class="fa fa-heart text-danger"></i>13
+                            </h6>
+                            <h5 class="card-title"><a href="post.html">Post title</a></h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer. <a href="post.html">Read
+                                    more..</a>
+                            </p>
+                            <div class="card-footer">
+                                <small class="text-muted">
+                                    <img alt="" class="shadow-xl rounded-circle mr-2" src="./assets/images/myphoto.jpg"
+                                         style="width: 30px">
+                                    <span>John Doe</span>
+                                    <span class="float-right">Last updated 3mins ago</span>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow-box blog-card wow fadeInLeft" data-wow-delay="0.4s">
+                        <a class="" href="post.html">
+                            <img alt="..." class="card-img-top" src="./assets/images/blog1.jpg">
+                        </a>
+                        <div class="card-body">
+                            <h6 class="mb-3">
+                                <i class="fa fa-files-o"></i>
+                                <a class="badge badge-success" href="#">Features</a>
+                                <i class="fa fa-tags"></i>
+                                <a class="badge badge-success" href="">Tag1, Tag2</a>
+                                <i class="fa fa-heart text-danger"></i>13
+                            </h6>
+                            <h5 class="card-title"><a href="post.html">Post title</a></h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer. <a href="post.html">Read
+                                    more..</a>
+                            </p>
+                            <div class="card-footer">
+                                <small class="text-muted">
+                                    <img alt="" class="shadow-xl rounded-circle mr-2" src="./assets/images/myphoto.jpg"
+                                         style="width: 30px">
+                                    <span>John Doe</span>
+                                    <span class="float-right">Last updated 3mins ago</span>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <nav aria-label="Blog Navigation" class="wow fadeIn">
+                        <ul class="pagination pagination-sm justify-content-center">
+                            <li aria-current="page" class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">1</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        </ul>
+                    </nav>
+                </main>
+                <aside class="col-lg-4 mb-4">
+                    <div class="card text-white bg-info mb-3 wow fadeInRight">
+                        <div class="card-header">
+                            <h4>Latest News</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a class="text-warning" href="post.html">Card Title 1</a>
+                                <small class="float-right">
+                                    <i class="fas fa-calendar-alt"></i> 2018-10-15
+                                </small>
+                            </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+                                blanditiis commodi cumque deserunt illum impedit nulla provident qui ratione
+                                voluptatem.</p>
+                            <hr class="hr">
+                            <h5 class="card-title 2">
+                                <a class="text-warning" href="post.html">Card Title 2</a>
+                                <small class="float-right">
+                                    <i class="fas fa-calendar-alt"></i> 2018-10-10
+                                </small>
+                            </h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+                                blanditiis commodi cumque deserunt illum impedit nulla provident qui ratione
+                                voluptatem.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 p-3 wow fadeInRight" data-wow-delay="0.2s">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a aria-controls="pop" aria-selected="true" class="nav-link active" data-toggle="tab"
+                                   href="#pop"
+                                   id="pop-tab" role="tab">Popular</a>
+                            </li>
+                            <li class="nav-item">
+                                <a aria-controls="event" aria-selected="false" class="nav-link" data-toggle="tab"
+                                   href="#event"
+                                   id="event-tab" role="tab">Event</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content py-3" id="myTabContent">
+                            <div aria-labelledby="pop-tab" class="tab-pane fade show active" id="pop" role="tabpanel">
+                                <h5 class="card-title">
+                                    <a class="text-purple" href="post.html">Propular Title 1</a>
+                                    <small class="float-right">
+                                        <i class="fas fa-calendar-alt"></i> 2018-9-7
+                                    </small>
+                                </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+                                    deleniti
+                                    deserunt dolore eveniet facilis harum maiores nihil quas quod quos ratione, sunt
+                                    unde
+                                    ut, vel vero. Assumenda neque nihil sunt!</p>
+                                <hr class="hr-black">
+                                <h5 class="card-title">
+                                    <a class="text-purple" href="post.html">Propular Title 2</a>
+                                    <small class="float-right">
+                                        <i class="fas fa-calendar-alt"></i> 2018-9-30
+                                    </small>
+                                </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+                                    deleniti
+                                    deserunt dolore eveniet facilis harum maiores nihil quas quod quos ratione, sunt
+                                    unde
+                                    ut, vel vero. Assumenda neque nihil sunt!</p>
+                            </div>
+
+                            <div aria-labelledby="event-tab" class="tab-pane fade" id="event" role="tabpanel">
+                                <h5 class="card-title">
+                                    <a class="text-purple" href="post.html">Event 2</a>
+                                    <small class="float-right">
+                                        <i class="fas fa-calendar-alt"></i> 2018-8-27
+                                    </small>
+                                </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+                                    deleniti
+                                    deserunt dolore eveniet facilis harum maiores nihil quas quod quos ratione, sunt
+                                    unde
+                                    ut, vel vero. Assumenda neque nihil sunt!</p>
+
+                                <h5 class="card-title">
+                                    <a class="text-purple" href="post.html">Event 1</a>
+                                    <small class="float-right">
+                                        <i class="fas fa-calendar-alt"></i> 2018-7-30
+                                    </small>
+                                </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+                                    deleniti
+                                    deserunt dolore eveniet facilis harum maiores nihil quas quod quos ratione, sunt
+                                    unde
+                                    ut, vel vero. Assumenda neque nihil sunt!</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: BlogMain -->
+
+
+<!-- SECTION: Footer
+====================================================================== -->
+<footer class="footer py-5">
+    <div class="container wow fadeInUp">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a class="text-warning" href="index.html">
+                        <h5>My Website</h5>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque iusto laudantium omnis
+                        possimus quas quod saepe! Accusamus accusantium culpa cupiditate, deleniti dolor ea magnam neque
+                        possimus praesentium quasi unde.</p>
+                </div>
+                <div class="col-md-2 d-none d-md-block mb-4">
+                    <h5>Projects</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted" href="page.html">Project 1</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Project 2</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Project 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 d-none d-md-block mb-4">
+                    <h5>Pages</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted" href="page.html">Page 1</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Page 2</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Page 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card card-body bg-danger">
+                        <div class="card-text">
+                            <div class="text-white d-flex justify-content-start">
+                                <i class="fas fa-phone fa-4x mr-5"></i>
+                                <div class="icon-list-content">
+                                    <div>
+                                        <p class="my-0">Phone Call</p>
+                                    </div>
+                                    <div>
+                                        <p class="lead">
+                                            <a class="text-white" href="tel:010-8276-1258"></a>
+                                            <strong>010-8276-1258</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="hr-white mt-0 mb-3">
+                            <div class="text-white">
+                                <span>
+                                    <i class="fa fa-envelope fa-lg mr3"></i>
+                                     <a class="text-white" href="mailto:jdoe@email.com"></a>
+                                    <strong>jdoe@email.com</strong>
+                                </span>
+                            </div>
+                            <br>
+                            <div class="text-white">
+                                <span>
+                                    <i class="fa fa-home fa-lg mr-3">
+                                       Busan, South Korea
+                                    </i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+
+        <ul class="social-icons list-unstyled d-flex justify-content-center">
+            <li class="mx-2">
+                <a href="#" style="color: #00aced;">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #3b5998;">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #d34836;">
+                    <i class="fab fa-google-plus fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #cc181e;">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="copyright text-center text-muted mt-4">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            My Website. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+<!-- SECTION: Footer -->
+</body>
+</html>

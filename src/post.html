@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>My Website | Post</title>
+</head>
+<body class="post">
+<a class="shadow-xl" href="" id="scrolltoTop">Top</a>
+
+<!-- SECTION: Navbar
+====================================================================== -->
+<nav class="navbar navbar-expand-lg navbar-transparent fixed-top rgba-black-light" id="primary-navbar">
+    <div class="container">
+        <a class="navbar-brand text-white font text-center" data-placement="bottom" data-toggle="tooltip"
+           href="index.html" title="나의 웹사이트 로고입니다.">
+            <img alt="My logo" src="./assets/images/logo.jpg" width="60px">
+            <h2>ASITE</h2>
+        </a>
+
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="index.html"><i class="fa fa-home fa-lg"></i>
+                        <p>Home</p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" href="intro.html"><i class="fa fa-info fa-lg"></i>
+                        <p>Intro</p></a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-book-open fa-lg"></i>
+                        <p>Page</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="page.html">Action</a>
+                        <a class="dropdown-item" href="page.html">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="page.html">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a aria-disabled="true" class="nav-link text-center" href="blog.html" tabindex="-1">
+                        <i class="fa fa-rss fa-lg"></i>
+                        <p>Blog <span class="sr-only">(current)</span></p>
+                    </a>
+                </li>
+
+                <!--Project Mega Menu for PC-->
+                <li class="nav-item dropdown dropdown-wide d-lg-block d-none">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-th-large fa-lg"></i>
+                        <p>Project</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu w-75">
+                        <div class="container-fluid py-4" id="mega-menu">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h5>
+                                        <strong class="text-danger">Project Title</strong>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <img alt="" class="img-fluid rounded mt-3" src="./assets/images/bg_universe.jpg">
+                                </div>
+                                <div class="col-xl-9">
+                                    <h5><strong class="text-success">Our Project below...</strong></h5>
+                                    <div class="dropdown-divider mt-3 mb-4"></div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img1.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 1</strong>
+                                                </h6>
+                                                <p>TEST</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img2.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 2</strong>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <img alt="" class="img-fluid shadow-lg" src="./assets/images/img3.jpg">
+                                            <a class="dropdown-item" href="page.html">
+                                                <br>
+                                                <h6>
+                                                    <strong>Project 3</strong>
+                                                </h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi aut
+                                    blanditiis corporis doloremque eos expedita fugiat harum illum libero minima porro
+                                    quis quos, saepe tempore voluptatem! Explicabo, voluptas!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--Project Mega Menu for mobile-->
+                <li class="nav-item dropdown d-block d-lg-none">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle text-center"
+                       data-toggle="dropdown"
+                       href="#"
+                       id="navbarDropdown" role="button">
+                        <i class="fa fa-th-large fa-lg"></i>
+                        <p>Project</p>
+                    </a>
+                    <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                        <a class="dropdown-item" href="page.html">Project 1</a>
+                        <a class="dropdown-item" href="page.html">Project 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="page.html">Project 3</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" data-target="#modal-contact"
+                       data-toggle="modal" href="#" tabindex="-1">
+                        <i class="fa fa-envelope fa-lg"></i>
+                        <p>Contact</p></a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link text-center" href="reservation.html" tabindex="-1">
+                        <i class="fa fa-desktop fa-lg"></i>
+                        <p>Reservaiotn</p></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- SECTION: Navbar -->
+
+<!--Modal Contact-->
+<div aria-hidden="true" aria-labelledby="myLargeModalLabel" class="modal fade bd-example-modal-lg" id="modal-contact"
+     role="dialog"
+     tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-info" id="exampleModalLabel">Contact us!</h5>
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="bold">상담 문의 해주셔서 감사합니다. 가능한 빠르게 답장 드리겠습니다. 아래 내역을 채워 주세요.</p>
+                <br>
+                <form>
+                    <div class="form-row mb-3">
+                        <div class="col-3">
+                            <input class="form-control" placeholder="Your Name" type="text">
+                        </div>
+                        <div class="col-3">
+                            <input class="form-control" placeholder="Your Phone Number" type="text">
+                        </div>
+                        <div class="col-6">
+                            <input class="form-control" placeholder="localhost@gmail.com" type="email">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Subject" type="text">
+                    </div>
+                    <div class="form-group">
+                            <textarea class="form-control" cols="30" id="" name="" placeholder="Write your message..."
+                                      rows="_4_"></textarea>
+                    </div>
+                    <button class="btn bg-purple" type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION: Jumbotron
+====================================================================== -->
+<section class="jumbotron jumbotron-fluid mb-0">
+    <div class="section-content">
+        <div class="container text-center text-white rgba-black-light p-5 my-5">
+            <h1 class="display-4 font-weight-bold">Post Title</h1>
+
+            <hr class="hr w-75">
+            <p class="lead"> Post Description here. It uses utility classes for typography and spacing to space content
+                out within the larger
+                container.</p>
+
+        </div>
+    </div>
+
+</section>
+<!-- SECTION: Jumbotron -->
+
+<!-- SECTION: Post Content
+====================================================================== -->
+<section class="main main-raised-rounded" id="post-content">
+    <div class="section-content">
+        <div class="container">
+
+            <!-- Post Header -->
+            <div class="row post-header py-2 mb-5 wow fadeInLeft">
+                <div class="col-sm-10 col9">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb p-0 bg-transparent">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+                            <li aria-current="page" class="breadcrumb-item active">This is my post</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-sm-2 col-3">
+                    <div class="float-right">
+                        <i class="fa fa-arrow-circle-left fa-lg"></i>
+                        <i class="fa fa-arrow-circle-right fa-lg"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post Featured Imgae & Excerpt -->
+            <div class="row">
+                <div class="col-lg-8 wow fadeInLeft">
+                    <img alt="" class="img-fluid shadow-xl" src="./assets/images/bg1.jpg">
+                    <br>
+                    <div class="post-meta mt-5 py-2">
+                        <small class="text-muted mb5">
+                            <i class="fas fa-user"></i>
+                            <strong>John Doe</strong>
+                            <i class="fa fa-calendar-alt"></i> 2018-10-8
+                            <i class="fas fa-file"></i> <span class="badge badge-pill badge-warning">Cat1</span>
+                            | <i class="fas fa-tags"></i> <span class="badge badge-pill badge-primary">Tag1, Tag2</span>
+                            | <i class="fas fa-heart text-danger"></i> <span>2</span>
+                        </small>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block wow fadeInRight">
+                    <div class="post-excerpt border border-warning text-warning rgba-orange-slight lead p-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eos!</p>
+                    </div>
+                    <br>
+                    <img alt="" class="second-featured-img img-fluid shadow-xl" src="assets/images/bg2.jpg">
+                </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <article class="col-md-8 offset-md-2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores aut consequatur
+                        corporis dicta eos facere facilis incidunt laboriosam minima natus necessitatibus nobis non odio
+                        odit, pariatur, quae quod, ratione sit soluta sunt ullam ut veniam? Autem illum possimus
+                        voluptatum!</p>
+                    <p class="lead my-5 text-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a
+                            class="text-danger"
+                            data-content="And here's some amazing content. It's very engaging. Right?"
+                            data-toggle="popover" data-trigger="focus"
+                            role="button" tabindex="0"
+                            title="Dismissible popover"><u>POPOVER</u></a>
+                        Amet atque consequuntur debitis
+                        <span data-placement="bottom" data-toggle="tooltip"
+                              title="This is tooltip"><u>deserunt</u></span>
+                        est, ex excepturi laudantium quae sed
+                        soluta.</p>
+
+                    <img alt="" class="float-right ml-3 mb-3 wow slideInRight" src="./assets/images/port1.jpg"
+                         style="width: 60%">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae dignissimos error et
+                        harum molestiae molestias natus odio ut. A ad delectus ea laudantium minima molestias optio
+                        porro possimus quae sit. Animi assumenda delectus, dolore doloremque explicabo fuga incidunt
+                        praesentium provident quasi quia quibusdam rerum sapiente, sint totam veniam. Ab, amet aut autem
+                        beatae blanditiis corporis debitis deserunt dicta doloribus eius enim ex facere in iusto
+                        laboriosam libero minima necessitatibus nemo nihil, nobis nulla, officia omnis saepe sed
+                        similique soluta ullam voluptatum! Aliquam atque, commodi cumque dolore explicabo minima
+                        possimus? Aperiam optio quae quisquam quod recusandae similique voluptate! Animi deleniti
+                        facilis velit. At autem cupiditate debitis, doloribus ea eligendi fugiat inventore labore libero
+                        optio perspiciatis quam quia quis quisquam soluta, suscipit ut! Eveniet illum nesciunt nisi
+                        officia officiis porro quis sit. Consectetur doloribus ex iusto maxime nisi omnis reprehenderit
+                        velit. Aliquam autem corporis deserunt excepturi incidunt obcaecati quibusdam quos, repudiandae.
+                        Alias aliquam aut ullam voluptas voluptates. Ad adipisci aliquam amet commodi consectetur
+                        dignissimos ea et fugiat inventore, maiores, minima molestiae nihil quam saepe similique sit
+                        soluta tenetur voluptate, voluptatibus voluptatum. Corporis deserunt eius ex sed. A accusamus
+                        aliquam aliquid ducimus exercitationem illum incidunt nisi non optio sequi. Ex facere,
+                        reiciendis!</p>
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet
+                            deleniti dolorem, doloremque hic illo ipsam iure molestias omnis quod reprehenderit,
+                            suscipit, velit veritatis! Accusantium corporis eos sit vero voluptates?</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                            Title</cite></footer>
+                    </blockquote>
+
+                    <img alt="" class="float-left mr-3 mb-3 wow slideInLeft" src="./assets/images/port2.jpg"
+                         style="width: 60%">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab alias consectetur distinctio dolor
+                        eius exercitationem fuga impedit iusto molestias natus nisi obcaecati odit quas repellat saepe,
+                        sit, temporibus voluptates. Ab commodi deserunt esse quisquam quos ut velit! Consectetur
+                        distinctio earum est harum, libero magnam numquam odio pariatur provident quam tempore ullam
+                        vero vitae? Architecto, eveniet, perspiciatis? Consequatur cum, ea iusto laboriosam nobis
+                        officiis. Culpa deleniti dolorem necessitatibus nulla quasi quidem rem totam. Earum, natus,
+                        voluptatem. Adipisci architecto, asperiores assumenda deserunt eaque eius enim error ex fugiat
+                        id incidunt iste, libero modi necessitatibus neque, nostrum nulla numquam rem repudiandae
+                        voluptas.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum dolor.</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid atque corporis
+                        deserunt dolor dolore doloremque dolores eum facere harum, in inventore labore laborum maxime
+                        molestiae nostrum totam unde, voluptatem?</p>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">City</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>John Doe</td>
+                                <td>jdoe@email.com</td>
+                                <td>Seoul</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Sara Corner</td>
+                                <td>sara@email.com</td>
+                                <td>Busan</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>TH Hwang</td>
+                                <td>th@email.com</td>
+                                <td>Seoul</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur dolores facere
+                        laborum necessitatibus quasi quos ratione sed sit, tempore? Accusantium adipisci aliquam ducimus
+                        earum in laboriosam odio, optio placeat?</p>
+
+                    <br><br>
+
+                    <!-- Author Box -->
+                    <div class="shadow-box author-box p-4 my-4 border border-light rgba-blue-grey-slight">
+                        <div class="row">
+                            <div class="col-12 col-sm-2 text-center">
+                                <img alt="" class="img-fluid rounded-circle shadow-xl mb-4"
+                                     height="96px"
+                                     src="./assets/images/myphoto.jpg" width="96px">
+                            </div>
+                            <div class="col-12 col-sm-10">
+                                <div>
+                                    <h4>
+                                        <strong>John Doe</strong>
+                                        <small>CEO, Ph.D</small>
+                                        <span class="float-right">
+                                            <a class="text-muted" href="" target="_blank"></a>
+                                            <i class="fab fa-telegram fa-lg"></i>
+                                            <a class="text-muted" href="mailto:jdoe@email.com" target="_blank">
+                                                <i class="fas fa-envelope fa-lg"></i>
+                                            </a>
+                                        </span>
+
+                                    </h4>
+                                </div>
+                                <p>Hi~ I`m CEO John Doe. I appreciate your visit. Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing elit. Aliquam dolore doloremque, id iure nesciunt officiis quaerat quos
+                                    rem
+                                    tenetur ullam!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Comments -->
+                    <div class="shadow-box comments py-5 my-5 border">
+                        <div class="row">
+                            <div class="col-md-10 mx-auto">
+                                <h3 class="text-center">4 Comments</h3>
+                                <br>
+                                <div class="media my-3">
+                                    <img alt="" class="img-fluid rounded-circle shadow-lg mr-3"
+                                         src="./assets/images/avatar-2.png"
+                                         width="64px">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Jone Doe</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At delectus
+                                            doloribus est, explicabo harum molestiae quasi saepe tempora ullam
+                                            voluptatum.</p>
+                                        <div class="media-footer">
+                                            <a class="btn btn-link float-right text-purple" data-parent="bottom"
+                                               data-toggle="tooltip"
+                                               href="" title="Reply to Comment">
+                                                <i class="fas fa-paper-plane"></i> Reply
+                                            </a>
+                                        </div>
+
+                                        <div class="media my-3">
+                                            <img alt="" class="img-fluid rounded-circle shadow-lg mr-3"
+                                                 src="./assets/images/avatar-1.png"
+                                                 width="64px">
+                                            <div class="media-body">
+                                                <h5 class="mt-0">John Doe</h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At delectus
+                                                    doloribus est..</p>
+                                                <div class="media-footer">
+                                                    <a class="btn btn-link float-right text-purple" data-parent="bottom"
+                                                       data-toggle="tooltip"
+                                                       href="" title="Reply to Comment">
+                                                        <i class="fas fa-paper-plane"></i> Reply
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="media my-3">
+                                    <img alt="" class="img-fluid rounded-circle shadow-lg mr-3"
+                                         src="./assets/images/avatar-2.png"
+                                         width="64px">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Emily</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At delectus
+                                            doloribus est, explicabo harum molestiae quasi saepe tempora ullam
+                                            voluptatum.</p>
+                                        <div class="media-footer">
+                                            <a class="btn btn-link float-right text-purple" data-parent="bottom"
+                                               data-toggle="tooltip"
+                                               href="" title="Reply to Comment">
+                                                <i class="fas fa-paper-plane"></i> Reply
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="media my-3">
+                                    <img alt="" class="img-fluid rounded-circle shadow-lg mr-3"
+                                         src="./assets/images/avatar-2.png"
+                                         width="64px">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">James</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At delectus
+                                            doloribus est, explicabo harum molestiae quasi saepe tempora ullam
+                                            voluptatum.</p>
+                                        <div class="media-footer">
+                                            <a class="btn btn-link float-right text-purple" data-parent="bottom"
+                                               data-toggle="tooltip"
+                                               href="" title="Reply to Comment">
+                                                <i class="fas fa-paper-plane"></i> Reply
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+
+                                <h3 class="text-center">Post your comments...</h3>
+                                <div class="media my-3">
+                                    <img alt="" class="img-fluid rounded-circle shadow-lg mr-3"
+                                         src="http://via.placeholder.com/64x64"
+                                         width="64px">
+                                    <div class="media-body">
+                                        <textarea class="form-control" placeholder="Write your opinions"
+                                                  rows="4"></textarea>
+                                        <div class="media-footer"></div>
+                                        <a class="btn btn-success float-right text-purple mt-3" href="">
+                                            <i class="fas fa-paper-plane"></i> Reply
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: Post Content -->
+
+<!-- SECTION: Related Posts
+====================================================================== -->
+<section id="related-post">
+    <div class="section-content">
+        <div class="container">
+            <div class="divider w-100 wow fadeInUp">
+                <h1 class="display-3 text-center text-muted my-4">Related Posts</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4 my-4 wow fadeInUp">
+                    <div class="card">
+                        <a href="post.html">
+                            <img alt="" class="image-raised img-fluid shadow-xl rounded mx-auto"
+                                 src="./assets/images/bg1.jpg">
+                        </a>
+                        <div class="card-body">
+                            <small>
+                                <span class="badge badge-pill badge-warning">Tag1, Tag2</span>
+                            </small>
+                            <a href="post.html">
+                                <h4 class="card-title text-info mt-2">
+                                    <strong>Post Title 1</strong>
+                                </h4>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis corporis
+                                cumque et optio tempora totam veritatis vero vitae voluptatum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card">
+                        <a href="post.html">
+                            <img alt="" class="image-raised img-fluid shadow-xl rounded mx-auto"
+                                 src="./assets/images/bg2.jpg">
+                        </a>
+                        <div class="card-body">
+                            <small>
+                                <span class="badge badge-pill badge-warning">Tag1, Tag2</span>
+                            </small>
+                            <a href="post.html">
+                                <h4 class="card-title text-info mt-2">
+                                    <strong>Post Title 2</strong>
+                                </h4>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis corporis
+                                cumque et optio tempora totam veritatis vero vitae voluptatum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card">
+                        <a href="post.html">
+                            <img alt="" class="image-raised img-fluid shadow-xl rounded mx-auto"
+                                 src="./assets/images/bg3.jpg">
+                        </a>
+                        <div class="card-body">
+                            <small>
+                                <span class="badge badge-pill badge-warning">Tag1, Tag2</span>
+                            </small>
+                            <a href="post.html">
+                                <h4 class="card-title text-info mt-2">
+                                    <strong>Post Title 3</strong>
+                                </h4>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis corporis
+                                cumque et optio tempora totam veritatis vero vitae voluptatum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION: Related Posts -->
+
+<!-- SECTION: Footer
+====================================================================== -->
+<footer class="footer py-5">
+    <div class="container wow fadeInUp">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a class="text-warning" href="index.html">
+                        <h5>My Website</h5>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque iusto laudantium omnis
+                        possimus quas quod saepe! Accusamus accusantium culpa cupiditate, deleniti dolor ea magnam neque
+                        possimus praesentium quasi unde.</p>
+                </div>
+                <div class="col-md-2 d-none d-md-block mb-4">
+                    <h5>Projects</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted" href="page.html">Project 1</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Project 2</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Project 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 d-none d-md-block mb-4">
+                    <h5>Pages</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="text-muted" href="page.html">Page 1</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Page 2</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="page.html">Page 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card card-body bg-danger">
+                        <div class="card-text">
+                            <div class="text-white d-flex justify-content-start">
+                                <i class="fas fa-phone fa-4x mr-5"></i>
+                                <div class="icon-list-content">
+                                    <div>
+                                        <p class="my-0">Phone Call</p>
+                                    </div>
+                                    <div>
+                                        <p class="lead">
+                                            <a class="text-white" href="tel:010-8276-1258"></a>
+                                            <strong>010-8276-1258</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="hr-white mt-0 mb-3">
+                            <div class="text-white">
+                                <span>
+                                    <i class="fa fa-envelope fa-lg mr3"></i>
+                                     <a class="text-white" href="mailto:jdoe@email.com"></a>
+                                    <strong>jdoe@email.com</strong>
+                                </span>
+                            </div>
+                            <br>
+                            <div class="text-white">
+                                <span>
+                                    <i class="fa fa-home fa-lg mr-3">
+                                       Busan, South Korea
+                                    </i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+
+        <ul class="social-icons list-unstyled d-flex justify-content-center">
+            <li class="mx-2">
+                <a href="#" style="color: #00aced;">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #3b5998;">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #d34836;">
+                    <i class="fab fa-google-plus fa-2x"></i>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="#" style="color: #cc181e;">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="copyright text-center text-muted mt-4">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            My Website. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+<!-- SECTION: Footer -->
+</body>
+</html>
